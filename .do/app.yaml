@@ -1,8 +1,8 @@
-name: sample-nodejs
+name: node14-base
 services:
-- environment_slug: node-js
+- environment_slug: node14-base
   github:
     branch: main
     deploy_on_push: true
-    repo: digitalocean/sample-nodejs
-  name: sample-nodejs
+    repo: mokeseven7/node14-base
+  name: node14-base

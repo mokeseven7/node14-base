@@ -1,8 +1,8 @@
 spec:
-  name: sample-nodejs
+  name: node14-base
   services:
-  - environment_slug: node-js
+  - environment_slug: node14-base
     git:
       branch: main
-      repo_clone_url: https://github.com/digitalocean/sample-nodejs.git
-    name: sample-nodejs
+      repo_clone_url: https://github.com/mokeseven7/node14-base.git
+    name: node14-base
